@@ -186,7 +186,10 @@ body {
     letter-spacing: 1px;
     padding: 1.5rem 3rem; }
   .overview__stars {
-    display: flex; }
+    display: flex;
+    margin-right: auto; }
+    .overview__stars:hover {
+      background: red; }
   .overview__icon-star {
     width: 1.75rem;
     height: 1.75rem;
